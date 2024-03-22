@@ -36,11 +36,35 @@ li {
     text-align: left;
     color: #025157;
     font-weight: 500;
+    font-family: sans-serif;
+    height: 45px;
+}
+
+.navbar > ul > li {
+    margin: 0 25px;
+    color: #025157;
 }
 
 .actions {
+    display: inline-block;
     width: 15%;
     text-align: left;
     font-size: 14px;
     font-weight: 600;
+}
+
+.actions{
+    /* margin: 0 10px;  <--- Este estilo rompe la navbar*/
+}
+
+#signin {
+    color: #67b54b;   
+}
+
+#free-trial {
+    font-size: 14px;
+    color: white;
+    background-color: #67b54b;
+    margin: 0 14px;
+    border-radius: 5px;
 }
