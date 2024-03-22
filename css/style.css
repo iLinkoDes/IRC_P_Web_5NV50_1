@@ -116,4 +116,52 @@ li {
 .features {
     display: grid;
     grid-template: repeat(2, 330px)/repeat(2, 1fr);
+    background: #025157;
+    padding: 75px 30px 10px 30px;
+}
+
+.articulos {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    background-color: #FFFFFF;
+    margin: 0   15px 15px 15px;
+    overflow: hidden;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.icono  {
+    text-align: center;
+    height: 35px;
+    width: 35px;
+    margin: 30px 0;
+    border-radius: 100%;
+}
+.icono > img {
+    vertical-align: middle;
+    margin: auto;
+    padding-top: 5px;
+}
+
+.contenido-articulos {
+    margin: 0 40px;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.contenido-articulos > a {
+    color: #025157;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.imagen-articulos {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.imagen-articulos > img {
+    margin-right: -50px;
+    width: 80%;
+    height: 100%;
 }
