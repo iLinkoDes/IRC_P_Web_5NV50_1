@@ -40,6 +40,10 @@ li {
     height: 45px;
 }
 
+.video  {
+    margin-top: 20px;
+}
+
 .navbar > ul > li {
     margin: 0 25px;
     color: #025157;
