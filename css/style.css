@@ -40,9 +40,6 @@ li {
     height: 45px;
 }
 
-.video  {
-    margin-top: 20px;
-}
 
 .navbar > ul > li {
     margin: 0 25px;
@@ -71,4 +68,22 @@ li {
     background-color: #67b54b;
     margin: 0 14px;
     border-radius: 5px;
+}
+
+.publish  {
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+}
+
+#publish-form > input {
+    margin: 0   0;
+    border-radius: 5px;
+    height: 45px;
+}
+
+#publish-form > .boton {
+    color: white;
+    background-color: #025157;
 }
